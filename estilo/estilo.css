@@ -1,0 +1,29 @@
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: #5EC9CC;
+    text-align: center;
+}
+
+.imagem{
+    width: 100%;
+}
+
+.imagem img{
+    height: 350px;
+    width: 350px;
+    margin-left: 500px;
+}
+
+.botao a button{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #30526A;
+    color: #5EC9CC;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 550px;
+}
