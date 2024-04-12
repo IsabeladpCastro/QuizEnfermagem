@@ -28,7 +28,7 @@
     margin-left: 550px;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
     .imagem img{
         height: 250px;
         width: 250px;
@@ -48,5 +48,28 @@
     .botao a button{
         margin-top: 45px;
         margin-left: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    .imagem img{
+        height: 250px;
+        width: 250px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    .titulo{
+        width: 405px;
+        height: 100px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botao a button{
+        margin-top: 45px;
+        margin-left: 80px;
     }
 }
