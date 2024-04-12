@@ -27,3 +27,26 @@
     margin-top: 40px;
     margin-left: 550px;
 }
+
+@media (max-width: 425px) {
+    .imagem img{
+        height: 250px;
+        width: 250px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+
+    .titulo{
+        width: 300px;
+        height: 100px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botao a button{
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+}
